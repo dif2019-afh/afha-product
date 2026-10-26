@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+
+# Build output
+dist/
+build/
+
+# Secrets and local settings (never commit these)
+.env
+.env.*
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Safety: keep any real data out of the repo
+real-data/
+*.real.csv
